@@ -12,7 +12,7 @@
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 
-@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+@import url('https://raw.githubusercontent.com/thopinkrotu/midnight-discord/refs/heads/master/midnight.css');
 
 /* customize things here */
 :root {
@@ -20,7 +20,7 @@
 	--font: 'figtree';
 
 	/* top left corner text */
-	--corner-text: 'Thopinkrotu';
+	--corner-text: ' Thopinkrotu';
 
 	/* color of status indicators and window controls */
 	--online-indicator: #87dc7f; /* change to #23a55a for default green */
@@ -88,7 +88,7 @@
 
 /* catppuccin icon */
 .childWrapper_a6ce15:has(> svg:not(.favoriteIcon_adf80e)) {
-	background: url('https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png');
+	background: url('https://raw.githubusercontent.com/thopinkrotu/midnight-discord/master/assets/1544x1544_circle.png');
 	background-color: transparent !important;
 	background-size: cover;
 }
