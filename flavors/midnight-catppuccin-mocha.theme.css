@@ -32,11 +32,11 @@
 	--streaming-indicator: #cba6f7; /* change to #593695 for default purple */
 
 	/* accent colors */
-	--accent-1: hsl(267, 84%, 81%); /* links */
-	--accent-2: hsl(267, 84%, 81%); /* general unread/mention elements */
-	--accent-3: hsl(267, 84%, 81%); /* accent buttons */
-	--accent-4: hsl(267, 70%, 73%); /* accent buttons when hovered */
-	--accent-5: hsl(267, 55%, 65%); /* accent buttons when clicked */
+	--accent-1: hsl(267, 100%, 50%); /* links */
+	--accent-2: hsl(267, 100%, 50%); /* general unread/mention elements */
+	--accent-3: hsl(267, 100%, 50%); /* accent buttons */
+	--accent-4: hsl(267, 100%, 50%); /* accent buttons when hovered */
+	--accent-5: hsl(267, 100%, 50%); /* accent buttons when clicked */
 	--mention: hsla(267, 70%, 71%, 0.1); /* mentions & mention messages */
 	--mention-hover: hsla(267, 70%, 71%, 0.05); /* mentions & mention messages when hovered */
 
@@ -56,6 +56,7 @@
 	--hover: hsla(237, 18%, 53%, 0.1); /* channels and buttons when hovered */
 	--active: hsla(235, 15%, 53%, 0.2); /* channels and buttons when clicked or selected */
 	--message-hover: hsla(240, 0%, 0%, 0.1); /* messages when hovered */
+
 
 	/* amount of spacing and padding */
 	--spacing: 12px;
