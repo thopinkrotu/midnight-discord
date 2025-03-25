@@ -48,11 +48,11 @@
 	--message-hover: hsla(230, 0%, 0%, 0.1); /* messages when hovered */
 
 	/* accent colors */
-	--accent-1: var(--purple-1); /* links and other accent text */
-	--accent-2: var(--purple-2); /* small accent elements */
-	--accent-3: var(--purple-3); /* accent buttons */
-	--accent-4: var(--purple-4); /* accent buttons when hovered */
-	--accent-5: var(--purple-5); /* accent buttons when clicked */
+	--accent-1: hsl(267, 100%, 50%); /* links */
+	--accent-2: hsl(267, 100%, 50%); /* general unread/mention elements */
+	--accent-3: hsl(267, 100%, 50%); /* accent buttons */
+	--accent-4: hsl(267, 100%, 50%); /* accent buttons when hovered */
+	--accent-5: hsl(267, 100%, 50%); /* accent buttons when clicked */
 	--mention: linear-gradient(
 		to right,
 		color-mix(in hsl, var(--accent-2), transparent 90%) 60%,
